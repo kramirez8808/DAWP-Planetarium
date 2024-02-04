@@ -1,0 +1,48 @@
+/* About Page */
+body {
+    background: white;
+}
+
+.about-section {
+    /* Full size */
+    height: 100vh;
+    width: 100%;
+}
+
+.about-container-flex {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* gap: 8rem; */
+    /* width: 100%; */
+    height: 92vh;
+}
+
+.image {
+    max-width: 30%;
+    border-radius: 8px;
+    object-fit: contain;
+    margin: 0 2rem;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.7);
+}
+
+.about-details {
+    max-width: 25%;
+    margin: 0 2rem;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.about-title {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.about-p {
+    font-size: 1.25rem;
+    line-height: 2.5;
+}
+

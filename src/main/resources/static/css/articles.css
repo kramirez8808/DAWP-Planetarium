@@ -24,7 +24,7 @@
 }
 
 .section-2 {
-   height: 100vh; 
+   height: 80vh; 
 }
 
 .article-div-title {
@@ -42,7 +42,7 @@
     border: 2px solid black;
     border-radius: 16px;
     width: 60%;
-    margin-top: 10rem;
+    margin-top: 5rem;
 }
 
 .table th {
@@ -66,5 +66,5 @@
 }
 
 .article-3-image {
-    max-height: 80%;
+    width: 22%;
 }
